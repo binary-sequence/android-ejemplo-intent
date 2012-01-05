@@ -20,15 +20,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btnUno" />
-
+
         <Button
             android:id="@+id/btnDatosUno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btnDatosUno" />
-
     </LinearLayout>
-
+
     <TextView
         android:id="@+id/tvDatosUno"
         android:layout_width="wrap_content"
