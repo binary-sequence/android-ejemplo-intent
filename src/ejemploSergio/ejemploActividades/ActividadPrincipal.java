@@ -44,6 +44,9 @@ public class ActividadPrincipal extends Activity {
 		// Obtengo los datos recibidos de Actividad2.
 		Bundle extras = intent.getExtras();
 
+		// Obtengo el elemento tvDatosUno definido en main.xml
+		TextView tvDatosUno = (TextView) this.findViewById(R.id.tvDatosUno);
+
 		// Si se han recibido datos.
 		if (extras != null) {
 			// Según el código de respuesta (en este caso sólo hay una).
@@ -52,15 +55,14 @@ public class ActividadPrincipal extends Activity {
 				// Obtengo el valor del dato con nombre datoDos.
 				String datoDos = extras.getString("datoDos");
 
-				// Obtengo el elemento tvDatosUno definido en main.xml
-				TextView tvDatosUno = (TextView) this
-						.findViewById(R.id.tvDatosUno);
-
 				// Asigno el dato al elemento tvDatosUno.
 				tvDatosUno.setText(datoDos);
 
 				break;
 			}
+		} else {
+			// Asigno el dato por defecto al elemento tvDatosUno.
+			tvDatosUno.setText(R.string.tvSinDatos);
 		}
 	}
 }
