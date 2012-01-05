@@ -52,7 +52,7 @@ public class ActividadPrincipal extends Activity {
 				// Obtengo el valor del dato con nombre datoDos.
 				String datoDos = extras.getString("datoDos");
 
-				// Obtengo el elmento tvDatosUno definido en main.xml
+				// Obtengo el elemento tvDatosUno definido en main.xml
 				TextView tvDatosUno = (TextView) this
 						.findViewById(R.id.tvDatosUno);
 
