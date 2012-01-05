@@ -26,10 +26,11 @@ public class ActividadPrincipal extends Activity {
 		// Asigno al elemento btnUno un evento click de clase BtnUnoClick.
 		btnUno.setOnClickListener(new BtnUnoClick(this));
 
-		// Obtengo el elemento btnDos definido en main.xml
+		// Obtengo el elemento btnDatosUno definido en main.xml
 		Button btnDatosUno = (Button) this.findViewById(R.id.btnDatosUno);
 
-		// Asigno el elemento btnDos un evento click de clase BtnDatosUnoClick.
+		// Asigno el elemento btnDatosUno un evento click de clase
+		// BtnDatosUnoClick.
 		btnDatosUno.setOnClickListener(new BtnDatosUnoClick(this));
 	}
 
