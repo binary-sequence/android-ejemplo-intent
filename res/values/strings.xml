@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    
-    <string name="app_name">EjemploActividades</string><string name="tvUno">Esta es la Actividad 1</string>
+    <string name="app_name">EjemploActividades</string>
+    <string name="tvUno">Esta es la Actividad 1</string>
     <string name="btnUno">Ver actividad 2</string>
-    <string name="btnDatosUno">Enviar hola</string><string name="tvDos">Esta es la Actividad 2</string>
+    <string name="btnDatosUno">Enviar hola</string>
+    <string name="tvDos">Esta es la Actividad 2</string>
     <string name="btnDos">Volver a la Actividad 1</string>
     <string name="tvSinDatos">Sin datos</string>
-    
     <string name="btnDatosDos">Enviar adios</string>
 
 </resources>
