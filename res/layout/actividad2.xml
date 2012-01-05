@@ -20,15 +20,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btnDos" />
-
+
         <Button
             android:id="@+id/btnDatosDos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btnDatosDos" />
-
     </LinearLayout>
-
+
     <TextView
         android:id="@+id/tvDatosDos"
         android:layout_width="wrap_content"
