@@ -7,7 +7,7 @@
     <string name="btnDatosUno">Enviar hola</string>
     <string name="tvDos">Esta es la Actividad 2</string>
     <string name="btnDos">Volver a la Actividad 1</string>
-    <string name="tvSinDatos">Sin datos</string>
     <string name="btnDatosDos">Enviar adios</string>
+    <string name="tvSinDatos">Sin datos</string>
 
 </resources>
